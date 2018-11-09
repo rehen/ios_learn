@@ -1,0 +1,326 @@
+2018-11-06 09:01:27 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ff31718ce00; archive(resolved)='<IDEArchive: 0x7ff325a2cfa0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7ff317716150>', team(resolved)='<IDEProvisioningBasicTeam 0x7ff314a058f0: teamID: Y44896ZN7M, teamName: Ren Chen>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ff31718ce00; archive = '<IDEArchive: 0x7ff325a2cfa0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff317716150>', team='<IDEProvisioningBasicTeam 0x7ff314a058f0: teamID: Y44896ZN7M, teamName: Ren Chen>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ff317919900; archive = '<IDEArchive: 0x7ff325a2cfa0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff317716150>', team='<IDEProvisioningBasicTeam 0x7ff314a058f0: teamID: Y44896ZN7M, teamName: Ren Chen>'>
+	<IDEDistributionContext: 0x7ff3178260b0; archive = '<IDEArchive: 0x7ff325a2cfa0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff317716150>', team='<IDEProvisioningBasicTeam 0x7ff314a058f0: teamID: Y44896ZN7M, teamName: Ren Chen>'>
+	<IDEDistributionContext: 0x7ff31780fa50; archive = '<IDEArchive: 0x7ff325a2cfa0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff317716150>', team='<IDEProvisioningBasicTeam 0x7ff314a058f0: teamID: Y44896ZN7M, teamName: Ren Chen>'>
+	<IDEDistributionContext: 0x7ff32aacc150; archive = '<IDEArchive: 0x7ff325a2cfa0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff317716150>', team='<IDEProvisioningBasicTeam 0x7ff314a058f0: teamID: Y44896ZN7M, teamName: Ren Chen>'>
+	<IDEDistributionContext: 0x7ff326bf7910; archive = '<IDEArchive: 0x7ff325a2cfa0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff317716150>', team='<IDEProvisioningBasicTeam 0x7ff314a058f0: teamID: Y44896ZN7M, teamName: Ren Chen>'>
+	<IDEDistributionContext: 0x7ff327faa130; archive = '<IDEArchive: 0x7ff325a2cfa0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff317716150>', team='<IDEProvisioningBasicTeam 0x7ff314a058f0: teamID: Y44896ZN7M, teamName: Ren Chen>'>
+	<IDEDistributionContext: 0x7ff327fbfb90; archive = '<IDEArchive: 0x7ff325a2cfa0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff317716150>', team='<IDEProvisioningBasicTeam 0x7ff314a058f0: teamID: Y44896ZN7M, teamName: Ren Chen>'>
+	<IDEDistributionContext: 0x7ff314a8fd80; archive = '<IDEArchive: 0x7ff325a2cfa0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff317716150>', team='<IDEProvisioningBasicTeam 0x7ff314a058f0: teamID: Y44896ZN7M, teamName: Ren Chen>'>
+	<IDEDistributionContext: 0x7ff313779710; archive = '<IDEArchive: 0x7ff325a2cfa0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff317716150>', team='(null)'>
+	<IDEDistributionContext: 0x7ff31770a2e0; archive = '<IDEArchive: 0x7ff325a2cfa0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ff31718ce00>
+2018-11-06 09:01:27 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-11-06 09:01:27 +0000  Processing step: IDEDistributionCopyItemStep
+2018-11-06 09:01:27 +0000  Running /usr/bin/ditto '-V' '/Users/3dmy/Library/Developer/Xcode/Archives/2018-11-06/Hypnosister 2018-11-6 上午12.58.xcarchive/Products/Applications/Hypnosister.app' '/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/XcodeDistPipeline.hU9/Root/Payload/Hypnosister.app'
+2018-11-06 09:01:27 +0000  >>> Copying /Users/3dmy/Library/Developer/Xcode/Archives/2018-11-06/Hypnosister 2018-11-6 上午12.58.xcarchive/Products/Applications/Hypnosister.app 
+copying file ./_CodeSignature/CodeResources ... 
+2018-11-06 09:01:27 +0000  5133 bytes for ./_CodeSignature/CodeResources
+copying file ./archived-expanded-entitlements.xcent ... 
+2018-11-06 09:01:27 +0000  386 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-11-06 09:01:27 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-11-06 09:01:27 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+1136 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-11-06 09:01:27 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-11-06 09:01:27 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./embedded.mobileprovision ... 
+2018-11-06 09:01:27 +0000  9456 bytes for ./embedded.mobileprovision
+copying file ./Hypnosister ... 
+2018-11-06 09:01:27 +0000  111792 bytes for ./Hypnosister
+copying file ./Info.plist ... 
+2018-11-06 09:01:27 +0000  1114 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2018-11-06 09:01:27 +0000  8 bytes for ./PkgInfo
+2018-11-06 09:01:27 +0000  
+2018-11-06 09:01:27 +0000  
+2018-11-06 09:01:27 +0000  
+2018-11-06 09:01:27 +0000  /usr/bin/ditto exited with 0
+2018-11-06 09:01:27 +0000  
+2018-11-06 09:01:27 +0000  
+2018-11-06 09:01:27 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-11-06 09:01:27 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-11-06 09:01:27 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-11-06 09:01:27 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-11-06 09:01:27 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/XcodeDistPipeline.hU9/Root' '--json' '/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool-json-filepath-UkW6NG' '--compile-bitcode' '--output' '/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/IDEIPAProcessor.AppThinning.ha9' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2018-11-06 09:01:27 +0000  ruby 2.3.3p222 (2016-11-21 revision 56859) [universal.x86_64-darwin17]
+2018-11-06 09:01:27 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1593: warning: assigned but unused variable - minVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1593: warning: assigned but unused variable - sdkVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1602: warning: assigned but unused variable - sourceVersion
+2018-11-06 09:01:27 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1703: warning: shadowing outer local variable - node
+2018-11-06 09:01:27 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2470: warning: shadowing outer local variable - machoFile
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2470: warning: shadowing outer local variable - machoImage
+2018-11-06 09:01:27 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2497: warning: key :hasBitcode is duplicated and overwritten on line 2499
+2018-11-06 09:01:27 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2662: warning: assigned but unused variable - flag
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2662: warning: assigned but unused variable - transformer
+2018-11-06 09:01:27 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2912: warning: assigned but unused variable - exc
+2018-11-06 09:01:27 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:738: warning: assigned but unused variable - output
+2018-11-06 09:01:27 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:98: warning: assigned but unused variable - temp
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:109: warning: assigned but unused variable - e
+2018-11-06 09:01:27 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2018-11-06 09:01:27 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2018-11-06 09:01:27 +0000  OS X 10.13 17A365
+2018-11-06 09:01:27 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/", "LOGNAME"=>"3dmy", "XPC_FLAGS"=>"0x0", "HOME"=>"/Users/3dmy", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.0tymEMNixI/Render", "USER"=>"3dmy", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.SBwuk8T1jJ/Listeners", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.2264", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x19:0x34"}
+ARGV: ["/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/XcodeDistPipeline.hU9/Root", "--json", "/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool-json-filepath-UkW6NG", "--compile-bitcode", "--output", "/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/IDEIPAProcessor.AppThinning.ha9", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:101: warning: method redefined; discarding old to_h
+2018-11-06 09:01:27 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-11-06 09:01:27 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-11-06 09:01:27 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-11-06 09:01:27 +0000  Scanning IPA...
+2018-11-06 09:01:27 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature Hypnosister
+2018-11-06 09:01:27 +0000      /usr/bin/python exited with pid 4751 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-11-06 09:01:27 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) archived-expanded-entitlements.xcent Hypnosister
+2018-11-06 09:01:27 +0000      /usr/bin/python exited with pid 4752 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-11-06 09:01:27 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Base.lproj Hypnosister
+2018-11-06 09:01:27 +0000      /usr/bin/python exited with pid 4753 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-11-06 09:01:27 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) embedded.mobileprovision Hypnosister
+2018-11-06 09:01:27 +0000      /usr/bin/python exited with pid 4754 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-11-06 09:01:27 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Hypnosister Hypnosister
+2018-11-06 09:01:27 +0000      /usr/bin/python exited with pid 4755 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-11-06 09:01:27 +0000  Complete LinkageGraph:
+    Hypnosister.app/Hypnosister arm64 ->
+2018-11-06 09:01:27 +0000  Validating IPA structure...
+2018-11-06 09:01:28 +0000  Compiling bitcode...
+2018-11-06 09:01:28 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -o /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister --generate-dsym /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister.dSYM --strip-swift-symbols /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister
+2018-11-06 09:01:28 +0000    Compiling bitcode for arm64...
+    Compiling arm64 bitcode in 'Hypnosister'
+2018-11-06 09:01:28 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 4768 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister" 
+        -= Output =-
+        Non-fat file: /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister" 
+        -= Output =-
+        UUID: 8AEDFFA9-7A1D-3B7B-B7C0-2FCFBB5B2A0D (arm64) /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister" "-extract" "__LLVM" "__bundle" "/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/HypnosisternabZwR/Hypnosister.arm64.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/tempyh_2RF
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "1" "-o" "1.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/tempyh_2RF
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "2" "-o" "2.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/tempyh_2RF
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "3" "-o" "3.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/tempyh_2RF
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi"
+2018-11-06 09:01:28 +0000   "darwinpcs" "-Os" "-x" "ir" "4" "-o" "4.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/tempyh_2RF
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "11.2.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/3dmy/Library/Developer/Xcode/DerivedData/Hypnosister-glluizbaxnfjrvekggussenyfixu/Build/Intermediates.noindex/ArchiveIntermediates/Hypnosister/InstallationBuildProductsLocation/Applications/Hypnosister.app/Hypnosister" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk" "-sdk_version" "11.2.0" "-filelist" "/private/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/HypnosisternabZwR/Hypnosister.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/HypnosisternabZwR/Hypnosister.arm64.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister" 
+        -= Output =-
+        UUID: CC800B68-F591-3A52-B6A5-101C9CE61769 (arm64) /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister" "-o" "/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool2018110
+2018-11-06 09:01:28 +0000  6-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister
+2018-11-06 09:01:28 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 4785 exit 0
+    Stdout:
+        /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/ipatool20181106-4722-z8qh37/thinned/arm64/Payload/Hypnosister.app/Hypnosister [arm64, 0.079140 seconds]:
+    
+    Stderr:
+2018-11-06 09:01:29 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/IDEIPAProcessor.AppThinning.ha9/universal
+  Copying Hypnosister.app output payload directory
+2018-11-06 09:01:29 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:363: warning: File.exists? is a deprecated name, use File.exist? instead
+2018-11-06 09:01:29 +0000    Copying .dSYM files to /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/IDEIPAProcessor.AppThinning.ha9/universal/dSYMs
+  Copying .symbols files to /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/IDEIPAProcessor.AppThinning.ha9/universal/Symbols
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  ipatool JSON: {
+    alerts =     (
+                {
+            code = 2817;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2817;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2817;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+    );
+    universalIPA =     {
+        path = "/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/IDEIPAProcessor.AppThinning.ha9/universal";
+    };
+}
+2018-11-06 09:01:29 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-11-06 09:01:29 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-11-06 09:01:29 +0000  Processing step: IDEDistributionSymbolsStep
+2018-11-06 09:01:29 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-11-06 09:01:29 +0000  Processing step: IDEDistributionAppThinningStep
+2018-11-06 09:01:29 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-11-06 09:01:29 +0000  Processing step: IDEDistributionODRStep
+2018-11-06 09:01:29 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-11-06 09:01:29 +0000  Running /usr/bin/xattr '-crs' '/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/XcodeDistPipeline.hU9/Root/Payload/Hypnosister.app'
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  /usr/bin/xattr exited with 02018-11-06 09:01:29 +0000  
+
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  Processing step: IDEDistributionCodesignStep
+2018-11-06 09:01:29 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7ff317843ce0 'com.okar.poc.Hypnosister' '<DVTFilePath:0x7ff3178a1b60:'/Users/3dmy/Library/Developer/Xcode/Archives/2018-11-06/Hypnosister 2018-11-6 上午12.58.xcarchive/Products/Applications/Hypnosister.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7ff32ab3bc10>: {
+}
+2018-11-06 09:01:29 +0000  Entitlements for <IDEDistributionItem: 0x7ff317843ce0 'com.okar.poc.Hypnosister' '<DVTFilePath:0x7ff3178a1b60:'/Users/3dmy/Library/Developer/Xcode/Archives/2018-11-06/Hypnosister 2018-11-6 上午12.58.xcarchive/Products/Applications/Hypnosister.app'>'>: {
+    "application-identifier" = "Y44896ZN7M.com.okar.poc.Hypnosister";
+    "com.apple.developer.team-identifier" = Y44896ZN7M;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "Y44896ZN7M.com.okar.poc.Hypnosister"
+    );
+}
+2018-11-06 09:01:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff317843ce0 'com.okar.poc.Hypnosister' '<DVTFilePath:0x7ff3178a1b60:'/Users/3dmy/Library/Developer/Xcode/Archives/2018-11-06/Hypnosister 2018-11-6 上午12.58.xcarchive/Products/Applications/Hypnosister.app'>'> to: /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/XcodeDistPipeline.hU9/entitlementsd56dNI
+2018-11-06 09:01:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'B92297F0A648D40B50CACFD5A5E6B76FA124EEFA' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/XcodeDistPipeline.hU9/entitlementsd56dNI' '/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/XcodeDistPipeline.hU9/Root/Payload/Hypnosister.app'
+2018-11-06 09:01:29 +0000  /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/XcodeDistPipeline.hU9/Root/Payload/Hypnosister.app: signed app bundle with Mach-O thin (arm64) [com.okar.poc.Hypnosister]
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  /usr/bin/codesign exited with 0
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-11-06 09:01:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-11-06 09:01:29 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-11-06 09:01:29 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/XcodeDistPipeline.hU9/Root' '/var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/XcodeDistPipeline.hU9/Packages/Hypnosister.ipa'
+2018-11-06 09:01:29 +0000  >>> Copying /var/folders/th/sysn20z17dz7w0q6tsgb52c00000gn/T/XcodeDistPipeline.hU9/Root 
+2018-11-06 09:01:29 +0000  copying file ./Payload/Hypnosister.app/_CodeSignature/CodeResources ... 
+2018-11-06 09:01:29 +0000  5133 bytes for ./Payload/Hypnosister.app/_CodeSignature/CodeResources
+2018-11-06 09:01:29 +0000  copying file ./Payload/Hypnosister.app/archived-expanded-entitlements.xcent ... 
+386 bytes for ./Payload/Hypnosister.app/archived-expanded-entitlements.xcent
+copying file ./Payload/Hypnosister.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-11-06 09:01:29 +0000  1136 bytes for ./Payload/Hypnosister.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Hypnosister.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Hypnosister.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Hypnosister.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-11-06 09:01:29 +0000  832 bytes for ./Payload/Hypnosister.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Hypnosister.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-11-06 09:01:29 +0000  1136 bytes for ./Payload/Hypnosister.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/Hypnosister.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Hypnosister.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Hypnosister.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-11-06 09:01:29 +0000  916 bytes for ./Payload/Hypnosister.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/Hypnosister.app/embedded.mobileprovision ... 
+2018-11-06 09:01:29 +0000  7608 bytes for ./Payload/Hypnosister.app/embedded.mobileprovision
+copying file ./Payload/Hypnosister.app/Hypnosister ... 
+2018-11-06 09:01:29 +0000  62016 bytes for ./Payload/Hypnosister.app/Hypnosister
+copying file ./Payload/Hypnosister.app/Info.plist ... 
+2018-11-06 09:01:29 +0000  2362 bytes for ./Payload/Hypnosister.app/Info.plist
+copying file ./Payload/Hypnosister.app/PkgInfo ... 
+8 bytes for ./Payload/Hypnosister.app/PkgInfo
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  /usr/bin/ditto exited with 0
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  
+2018-11-06 09:01:29 +0000  Processing step: IDEDistributionCreateManifestStep

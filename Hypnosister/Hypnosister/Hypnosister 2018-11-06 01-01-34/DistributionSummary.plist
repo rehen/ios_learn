@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hypnosister.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>B92297F0A648D40B50CACFD5A5E6B76FA124EEFA</string>
+				<key>dateExpires</key>
+				<string>2019/11/6</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>Y44896ZN7M.com.okar.poc.Hypnosister</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>Y44896ZN7M</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>Y44896ZN7M.com.okar.poc.Hypnosister</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Hypnosister.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>2202c075-55e3-450d-a63a-e2d325cb6459</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>Y44896ZN7M</string>
+				<key>name</key>
+				<string>Ren Chen</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
