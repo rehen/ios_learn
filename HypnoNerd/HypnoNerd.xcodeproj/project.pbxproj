@@ -15,6 +15,10 @@
 		41F7501121940F770082ED33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F7501021940F770082ED33 /* main.m */; };
 		41F7501921940FBB0082ED33 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F7501721940FBB0082ED33 /* BNRHypnosisView.m */; };
 		41F7501C2194107B0082ED33 /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F7501B2194107B0082ED33 /* BNRHypnosisViewController.m */; };
+		F1456A8A2196693500BC468C /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1456A892196693500BC468C /* BNRReminderViewController.m */; };
+		F1456A8C21966AA900BC468C /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1456A8B21966AA900BC468C /* BNRReminderViewController.xib */; };
+		F1456A8F21973FE000BC468C /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1456A8D21973FDF00BC468C /* Time@2x.png */; };
+		F1456A9021973FE000BC468C /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1456A8E21973FDF00BC468C /* Hypno@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,11 @@
 		41F7501821940FBB0082ED33 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
 		41F7501A2194107B0082ED33 /* BNRHypnosisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisViewController.h; sourceTree = "<group>"; };
 		41F7501B2194107B0082ED33 /* BNRHypnosisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisViewController.m; sourceTree = "<group>"; };
+		F1456A882196693500BC468C /* BNRReminderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
+		F1456A892196693500BC468C /* BNRReminderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
+		F1456A8B21966AA900BC468C /* BNRReminderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
+		F1456A8D21973FDF00BC468C /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
+		F1456A8E21973FDF00BC468C /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +57,8 @@
 		41F74FF521940F750082ED33 = {
 			isa = PBXGroup;
 			children = (
+				F1456A8E21973FDF00BC468C /* Hypno@2x.png */,
+				F1456A8D21973FDF00BC468C /* Time@2x.png */,
 				41F7500021940F760082ED33 /* HypnoNerd */,
 				41F74FFF21940F760082ED33 /* Products */,
 			);
@@ -77,6 +88,9 @@
 				41F7500C21940F770082ED33 /* LaunchScreen.storyboard */,
 				41F7500F21940F770082ED33 /* Info.plist */,
 				41F7501021940F770082ED33 /* main.m */,
+				F1456A882196693500BC468C /* BNRReminderViewController.h */,
+				F1456A892196693500BC468C /* BNRReminderViewController.m */,
+				F1456A8B21966AA900BC468C /* BNRReminderViewController.xib */,
 			);
 			path = HypnoNerd;
 			sourceTree = "<group>";
@@ -140,8 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				41F7500E21940F770082ED33 /* LaunchScreen.storyboard in Resources */,
+				F1456A8C21966AA900BC468C /* BNRReminderViewController.xib in Resources */,
 				41F7500B21940F770082ED33 /* Assets.xcassets in Resources */,
+				F1456A9021973FE000BC468C /* Hypno@2x.png in Resources */,
 				41F7500921940F770082ED33 /* Main.storyboard in Resources */,
+				F1456A8F21973FE000BC468C /* Time@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41F7500621940F770082ED33 /* ViewController.m in Sources */,
+				F1456A8A2196693500BC468C /* BNRReminderViewController.m in Sources */,
 				41F7501121940F770082ED33 /* main.m in Sources */,
 				41F7501921940FBB0082ED33 /* BNRHypnosisView.m in Sources */,
 				41F7500321940F770082ED33 /* AppDelegate.m in Sources */,

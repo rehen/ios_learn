@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "BNRHypnosisViewController.h"
+#import "BNRReminderViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,10 +19,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame: CGRectMake(0, 0, 450, 800)];
+    NSLog(@"AppDelegate::application");
+    //self.window = [[UIWindow alloc] initWithFrame: CGRectMake(0, 0, 450, 800)];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // 在这里添加应用启动后的初始化代码
     BNRHypnosisViewController *hvc = [[BNRHypnosisViewController alloc] init];
-    self.window.rootViewController = hvc;
+    //self.window.rootViewController = hvc;
+    //self.window.backgroundColor = [UIColor whiteColor];
+    //[self.window makeKeyAndVisible];
+    // 获取指向NSBundle对象的指针，该NSBundle对象代表应用的主程序包
+    NSBundle *appBundle = [NSBundle mainBundle];
+    // 告诉初始化方法在appBundle中查找BNRReminderViewController.xib文件
+    BNRReminderViewController *rvc = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:appBundle];
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[hvc, rvc];
+    tabBarController.tabBarItem =
+    //self.window.rootViewController = rvc;
+    self.window.rootViewController = tabBarController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
