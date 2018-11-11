@@ -10,6 +10,8 @@
 #import "BNRHypnosisViewController.h"
 #import "BNRReminderViewController.h"
 
+#import "NotificationHandle.h"
+
 @interface AppDelegate ()
 
 @end
@@ -28,16 +30,29 @@
     //self.window.backgroundColor = [UIColor whiteColor];
     //[self.window makeKeyAndVisible];
     // 获取指向NSBundle对象的指针，该NSBundle对象代表应用的主程序包
-    NSBundle *appBundle = [NSBundle mainBundle];
+    //NSBundle *appBundle = [NSBundle mainBundle];
     // 告诉初始化方法在appBundle中查找BNRReminderViewController.xib文件
-    BNRReminderViewController *rvc = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:appBundle];
+    //BNRReminderViewController *rvc = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:appBundle];
+    BNRReminderViewController *rvc = [[BNRReminderViewController alloc] init];
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     tabBarController.viewControllers = @[hvc, rvc];
-    tabBarController.tabBarItem =
+    
     //self.window.rootViewController = rvc;
     self.window.rootViewController = tabBarController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    //[self replyPushNotificationAuthorization:application];
+    /*
+    [UNUserNotificationCenter currentNotificationCenter].delegate = [NotificationHandle shareInstance];
+    
+    [[NotificationHandle shareInstance] authorizationPushNotificaton:application];
+     */
+    // 设置我们需要的本地通知类型
+    UIUserNotificationSettings *local = [UIUserNotificationSettings settingsForTypes:7 categories:nil];
+    // 对通知进行注册，让系统知道
+    [[UIApplication sharedApplication] registerUserNotificationSettings:local];
+
     return YES;
 }
 
@@ -70,5 +85,20 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+-(void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken{
+    
+    NSString *deviceString = [[deviceToken description] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]];
+    deviceString = [deviceString stringByReplacingOccurrencesOfString:@" " withString:@""];
+    
+    NSLog(@"远端获取的deviceToken\n%@",deviceString);
+    
+    //存储得到的token，后面备用
+    [[NSUserDefaults standardUserDefaults] setValue:deviceString forKey:@"deviceToken"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+-(void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error{
+    NSLog(@"获取token失败:%@\n",error.localizedDescription);
+}
 
 @end

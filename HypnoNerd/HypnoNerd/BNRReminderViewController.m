@@ -18,6 +18,13 @@
 {
     NSDate *date = self.datePicker.date;
     NSLog(@"Setting a reminder for %@", date);
+    // 实现本地通知
+    
+    UILocalNotification * note = [[UILocalNotification alloc] init];
+    note.alertBody = @"催眠我吧。";
+    note.fireDate = date;
+    [[UIApplication sharedApplication] scheduleLocalNotification:note];
+    
 }
 
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil
@@ -36,6 +43,18 @@
         tbi.image = i;
     }
     return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    NSLog(@"BNRReminderViewController loaded its view.");
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.datePicker.minimumDate = [NSDate dateWithTimeIntervalSinceNow:10];
 }
 
 
